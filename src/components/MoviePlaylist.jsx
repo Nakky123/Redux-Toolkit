@@ -12,7 +12,7 @@ function MoviePlaylist() {
   });
 
   const handleMovieAdd = (movie) => {
-    console.log(dispatch(addMovie(movie)));
+    dispatch(addMovie(movie));
   };
   const handleMovieRemove = (movie) => {
     dispatch(removeMovie(movie));
